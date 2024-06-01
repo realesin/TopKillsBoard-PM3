@@ -1,0 +1,11 @@
+name: TopKillsBoard
+api: [3.0.0]
+version: 3.0.0
+main: TopKills\Main
+commands:
+  setlbkills:
+    description: "Set the coordinates of the LeaderBoards in your location"
+    permission: setlbkills.command
+permissions:
+  setlbkills.command:
+    default: op
